@@ -1,4 +1,6 @@
-### Goals
+# Model Explainers
+
+## Goals
 
 - Leave the participants with working examples.
 - Have documented instructions and references for further learning.
@@ -33,4 +35,18 @@ SHAP Values are used in the SHAP model explainer to show how each feature and va
 
 Here are a few examples of graphs and insights that SHAP can give. Check out the sample code for more information on how to create these graphs.
 
+![](pictures/shap_summary.png)
+
+![](pictures/shap_summary_2.png)
+
+![](pictures/shap_waterfall.png)
+
+![](pictures/shap_force.png)
+
+Some things to note: SHAP works best with decision tree and neural network models. While you can use it with KNN, it's not as good. We won't be going over it in this training. If you're interested in knowing more, see [this StackOverflow post](https://stackoverflow.com/questions/62211302/obtaining-the-shap-values-for-a-prediction-made-with-knn).
+
 ### DALEX
+
+### Other Model Explainers
+
+There are more than just these two, but SHAP is one of the most widely used in the community and has the most support. LIME (Local Interpretable Model-Agnostic Explanations) and Microsoft’s InterpretML are two other model explainers that you could use. If you're interested in learning more, you ask your nearest search engine.
