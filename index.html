@@ -57,37 +57,73 @@ class: center, middle
 
 checkout the slides branch for a pdf.
 
+---
+
+class: center, middle
+
+# What is a model explainer?
+
 ???
 
-Notes for the _first_ slide!
+Model explainers help explain the "black box" that are machine learning models.
+As we've been going in class, we've been generating hundreds of features. But training a model on so many 
+features can be resource intensive. It can also take time to generate all those features. By figuring out the 
+features that are most relevant to our model, we can focus on those. We could even drop our useless features 
+(no correlation to the final output prediction) and generate more features that are like our most important features.
+We can do this manually, but that takes a ton of time.
+
+Another advantage to model explainers is understanding individual instances that our model predicts. 
+In statistics, we can understand things "on the average". That is to say, if someone was to apply for a loan, 
+we can say "because most people that are approved for a loan have a credit score of 750, and your credit score 
+is 700, you're unlikely to be approved for a loan". However, if we had a model explainer for a machine learning 
+model that decides if you are approved for a loan, we could look at each factor that changes the final outcome, 
+and how much it changes it by. We'll show an example of this more in later sections
+
+
 
 ---
 
-# Agenda
+# What do we do with the info a model explainer gives us? 
 
-1. Introduction
-2. Survey of tools and needs
-3. Looking for automation
-4. Creating an accessible and secure workflow
+???
 
----
-
-# Introduction
-
-      It's possible to embed images.
-![![:scale 80%]](https://cdn.shopify.com/s/files/1/0051/4802/products/mona-1_large.jpg?v=1511308586)
+Justin's presenter notes
 
 ---
 
-# A great slide
+# SHAP
+
+SHAP is one of the best model explainers for Python (and really, most ML is done in Python).
+
+SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. 
+It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their 
+related extensions. (Shapley values are a solution concept in cooperative game theory).
+
+SHAP Values are used in the SHAP model explainer to show how each feature and value correlate the model output.
+
+SHAP has the ability to show the same model summaries that the built in feature importance functions can show. 
+However, the real power of model explainers comes in with the ability to show each individual observation.
+
+We'll discuss this more as we get into some sample code.
 
 ---
 
-# Another great slide
+# DALEX
 
 ---
 
-# Creating an accessible and secure workflow
+# Let's look at the example code in Databricks
+
+The link can be [here](https://adb-5187062830023627.7.azuredatabricks.net/?o=5187062830023627#notebook/4497061773294494/command/4497061773294495).  
+Alternatively, you can find the link to the code in our GitHub template or in Databrick>Worspace>Shared>Team Presentations>Model Explainers
+
+---
+
+# Add more slides with '---'
+
+---
+
+# Fin
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript">
