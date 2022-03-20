@@ -47,6 +47,18 @@ Some things to note: SHAP works best with decision tree and neural network model
 
 ### DALEX
 
+Dalex is another package you can use to explain your macine learning model. It is actually very similar to Shap. You can use Dalex to check the importance of each feature, and how each feature contributes to the final prediction. 
+
+Here are some examples from using Dalex to gain insights.
+
+![](pictures/dalex_1.png)
+
+![](pictures/dalex_2.png)
+
+There are more graphs to explore. If you are interested in learning more about Dalex [check out this website](https://dalex.drwhy.ai/python/api/). Beside that, there a YouTube video that will teach you how to use Dalex to create some insightful graphs. [Click on this!](https://www.youtube.com/watch?v=sezHr78xxoM)
+
+
+
 ### Other Model Explainers
 
 There are more than just these two, but SHAP is one of the most widely used in the community and has the most support. DALEX also appears to be somewhat popular. LIME (Local Interpretable Model-Agnostic Explanations) and Microsoft’s InterpretML are two other model explainers that you could use. If you're interested in learning more, you ask your nearest search engine.
