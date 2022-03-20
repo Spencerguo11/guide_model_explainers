@@ -55,7 +55,7 @@ Here are some examples from using Dalex to gain insights.
 
 ![](pictures/dalex_2.png)
 
-There are more graphs to explore. If you are interested in learning more about Dalex [check out this website](https://dalex.drwhy.ai/python/api/). Beside that, there a YouTube video that will teach you how to use Dalex to create some insightful graphs. [Click on this!](https://www.youtube.com/watch?v=sezHr78xxoM)
+There are more graphs to explore. If you are interested in learning more about Dalex [check out this website](https://dalex.drwhy.ai/python/api/). Besides that, there a YouTube video that will teach you how to use Dalex to create some insightful graphs. [Click on this!](https://www.youtube.com/watch?v=sezHr78xxoM)
 
 
 
